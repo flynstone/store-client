@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Grandstander' !important;
+  font-size: 18px !important;
+  background-color: #0f1533;
+  color: white;
+}
+
+button {
+  font-family: 'Grandstander' !important;
+}
+
+h2, h3 {
+  font-family: 'Grandstander' !important;
+  font-size: 18px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
