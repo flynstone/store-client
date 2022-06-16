@@ -32,7 +32,7 @@ function App() {
     } else {
       setLoading(false);
     }
-  }, [setBasket])
+  }, [dispatch])
 
   const [darkMode, setDarkMode] = useState(false);
   const paletteType = darkMode ? 'dark' : 'light';
