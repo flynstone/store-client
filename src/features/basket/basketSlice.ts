@@ -97,6 +97,7 @@ export const basketSlice = createSlice({
       // Return state.
       state.status = 'idle';
     });
+    
     builder.addCase(removeBasketItemAsync.rejected, (state, action) => {
       state.status = 'idle';
       console.log(action.payload);
